@@ -1,2 +1,3 @@
-# my-portfolio
-This is my example portfolio
+# Max Hausner's Portfolio
+
+This is my example portfolio that I created using ACloudGuru
