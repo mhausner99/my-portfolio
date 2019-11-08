@@ -3,7 +3,7 @@ import StringIO
 import zipfile
 import mimetypes
 
-s3 = boto3.resource('s3')
+s3 = boto3.resource('s3', config=Config(signature_version='s3v4'))
 
 portfolio_bucket = s3.Bucket('portfolio.maxhausner.info')
 build_bucket = s3.Bucket('portfoliobuild.maxhausner.info')
